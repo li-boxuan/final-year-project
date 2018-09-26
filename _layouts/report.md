@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ page.student }} | Project Report </title>
+		<title>{{ page.student }} | Project Report (Ongoing) </title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <link rel="stylesheet" href="resources/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
@@ -19,7 +19,7 @@
         <br>
             <div class="row no-margin">
                 <div class="col m12">
-                    <h4 class="left light">Google Summer of Code 2018 Work Product Submission </h4>
+                    <h4 class="left light">HKU CS 2018-2019 Final Year Project Website</h4>
                 </div>
                 <br>
             </div> 
@@ -29,7 +29,7 @@
                     <div class="card flex1">
                         <div class="card-content">
                             <h5 class="light no-margin"><a href="{{page.organisation_link}}">{{ page.organisation }}</a></h5>
-                            <h3 class="light">{{ page.student }}</h3>
+                            <h3 class="light">{{ page.project }}</h3>
                             <p>{{page.bio | markdownify}}</p>
                         </div>
                     </div>
@@ -37,16 +37,16 @@
                 <div class="col m3">
                     <div class="card flex1">
                         <div class="card-content">
-                            <div class="center"><h4 class="light no-margin">Project Title</h4></div>
+                            <div class="center"><h4 class="light no-margin">Student</h4></div>
                             <br>
-                            <div class="center"><a href="{{page.project_link}}">{{ page.project }}</a></div>
+                            <div class="center">{{ page.student | markdownify }}</div>
                         </div>
                     </div>
                     <div class="card flex1">
                         <div class="card-content">
-                            <div class="center"><h4 class="light no-margin">GSoC Blog</h4></div>
+                            <div class="center"><h4 class="light no-margin">Supervisor</h4></div>
                             <br>
-                            <div class="center"><a class="blog-link" href="{{ page.blog }}">{{ page.blog }}</a></div>
+                            <div class="center">{{ page.mentors  | markdownify }}</div>
                         </div>
                     </div>
                 </div>
@@ -75,59 +75,20 @@
                 </div>
             </div>
             <br>
-            <div class="row no-margin">
-                <div class="col m2">
-                    <div class="card flex1">
-                        <div class="card-content">
-                            <div class="center"><h5 class="light no-margin">Patches Tarball</h5></div>
-                            <br>
-                            <div class="center"><a href="{{ page.tarball }}">Download</a></div>
-                        </div>
-                    </div>
-                </div>
-                {% for ih in page.phase %}
-                    {% for item in ih %}
-                        <div class="col m2">
-                            <div class="card flex1">
-                                <div class="card-content">
-                                <div class="center"><h5 class="light no-margin">{{item[0]}}</h5></div>
-                                <br>
-                                <div class="center"><a href="{{item[1]}}">View Milestone</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                {% endfor %}
-                <div class="col m2">
-                    <div class="card flex1">
-                        <div class="card-content">
-                        <div class="center"><h5 class="light no-margin">Mentors</h5></div>
-                        <br>
-                        <div class="center">{{ page.mentors  | markdownify }}</div>
-                        </div>
-                    </div>
-                </div>
-  
-            </div>	
-            <br>
             <div class="no-margin">
                 <table class="padding-table">
                     <thead class="no-border">
                         <tr class="blue-grey-text text-lighten-2">
-                            <td></td>
-                            <td>Repository</td>
-                            <td>Link to Commit/s</td>
-                            <td>Description</td>
+                            <td>Period</td>
+                            <td>Progress Description</td>
                         </tr>
                     </thead>
                     <tbody class="card activity">
-                        {% for commits in page.activity %}
-                        {% for c in commits %} 
+                        {% for activities in page.activity %}
+                        {% for a in activities %} 
                            <tr>
-                                <td class="fl">{{ c[1][0]["repo"] | slice: 0 }}</td>
-                                <td class="">&nbsp;{{ c[1][0]["repo"] }}</td>
-                                <td><a href='{{ c[1][1]["link"] }}'>View</a></td>
-                                <td>{{ c[1][2]["details"] | markdownify}}</td>
+                                <td>{{ a[1][0]["period"] | markdownify}}</td>
+                                <td>{{ a[1][1]["details"] | markdownify}}</td>
                            </tr>
                         {% endfor %}
                           
