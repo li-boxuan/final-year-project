@@ -157,15 +157,6 @@
                 </table>
   
             </div>
-            <br>
-            <div class="content card">
-                <div class="card-content">
-                    {{page.content  | markdownify }}
-                </div>
-            </div>
-            <br><br>
-
-
 		</div>
 	</body>
 </html> 
