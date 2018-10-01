@@ -1,4 +1,4 @@
-# GSoCReport
-Project Report for my Google Summer of Code 2018 work with coala
+# Final Year Project Report
+Project Report for my Final Year Project at Department of Computer Science, Faculty of Engineering, The University of Hong Kong
 
-Template imported from https://github.com/hemangsk/GSoCReport
+Official website: https://i.cs.hku.hk/fyp/2018/fyp18022/
