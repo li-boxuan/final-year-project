@@ -75,6 +75,56 @@
                 </div>
             </div>
             <br>
+
+            <div class="row no-margin">
+                <div class="col m2">
+                    <div class="card flex1">
+                        <div class="card-content">
+                            <div class="center"><h5 class="light no-margin">Online System</h5></div>
+                            <br>
+                            <div class="center"><a href="{{ page.system }}">View website</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m2">
+                    <div class="card flex1">
+                        <div class="card-content">
+                            <div class="center"><h5 class="light no-margin">System Demo</h5></div>
+                            <br>
+                            <div class="center"><a href="{{ page.video }}">View video</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m2">
+                    <div class="card flex1">
+                        <div class="card-content">
+                        <div class="center"><h5 class="light no-margin">Phase 1</h5></div>
+                        <br>
+                        <div class="center"><a href="https://li-boxuan.github.io/final-year-project/plan.pdf">View Project Plan</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m2">
+                    <div class="card flex1">
+                        <div class="card-content">
+                        <div class="center"><h5 class="light no-margin">Phase 2</h5></div>
+                        <br>
+                        <div class="center">Interim Report (TODO)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m2">
+                    <div class="card flex1">
+                        <div class="card-content">
+                        <div class="center"><h5 class="light no-margin">Phase 3</h5></div>
+                        <br>
+                        <div class="center">Final Report (TODO)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <br>
+
             <div class="no-margin">
                 <table class="padding-table">
                     <thead class="no-border">

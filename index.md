@@ -4,6 +4,8 @@ student: Boxuan Li
 organisation: Department of Computer Science
 organisation_link: http://www.cs.hku.hk
 project: Motif-G - A Motif-based Graph Analysis Platform
+system: http://cexplorer.cs.hku.hk:8080/Maximal_m-clique/index.jsp
+video: https://www.useloom.com/share/c2d530506528487199c657e00d2e9537
 mentors: >
  [Dr. Reynold C.K. Cheng](https://i.cs.hku.hk/~ckcheng/)
 bio: >
