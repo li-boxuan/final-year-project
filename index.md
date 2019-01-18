@@ -27,17 +27,11 @@ email: liboxuanhk@gmail.com
 blog: http://li-boxuan.github.io/
 activity:
  - 0:
-   - period: Sep 2019
+   - period: Sep 2018
    - details: > 
-      Background investigation and research. Planning. 
+      Background investigation and research. Planning.
+ - 1:
+   - period: Oct 2018 - Jan 2019
+   - details: >
+      Algorithm improvement, platform enhancement and research on bioinformatics.
 ---
-
-### Motif-G: A Motif-based Graph Analysis Platform
-
-
-#### Work Done
-
-#### Challenges
-
-#### Work to be done
-
