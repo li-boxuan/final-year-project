@@ -109,7 +109,7 @@
                         <div class="card-content">
                         <div class="center"><h5 class="light no-margin">Phase 2</h5></div>
                         <br>
-                        <div class="center"><a href="https://li-boxuan.github.io/final-year-project/interim_report.pdf">View Interim Report</a></div>
+                        <div class="center">Interim Report available upon request</a></div>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                         <div class="card-content">
                         <div class="center"><h5 class="light no-margin">Phase 3</h5></div>
                         <br>
-                        <div class="center">Final Report (NA before 14 Apr 2019)</div>
+                        <div class="center">Final Report available upon request</div>
                         </div>
                     </div>
                 </div>

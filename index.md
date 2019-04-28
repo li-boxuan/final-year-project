@@ -34,4 +34,8 @@ activity:
    - period: Oct 2018 - Jan 2019
    - details: >
       Algorithm improvement, platform enhancement and research on bioinformatics.
+ - 2:
+   - period: Feb 2019 - Apr 2019
+   - details: >
+      Finish platform implementation and case studies on bioinformatics
 ---
